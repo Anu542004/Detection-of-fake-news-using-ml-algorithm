@@ -5,7 +5,16 @@ Fact-Checking: Some algorithms integrate fact-checking databases and services. T
 Social Media Analysis: Since fake news often spreads rapidly on social media, algorithms can analyze social media trends, user behavior, and the virality of news stories to identify potentially false information.
 Machine Learning Models: Fake news detection algorithms often utilize machine learning models trained on large datasets of both real and fake news. These models learn to recognize patterns and features that distinguish between reliable and unreliable information.
 Metadata Analysis: Algorithms can also examine metadata associated with news articles, such as publication dates, author information, and website domains, to assess the credibility of the content.
-Community Reporting: Some platforms incorporate user feedback and reports into their fake news detection algorithms. Users can flag suspicious content, which the algorithm then evaluates for further scrutiny.mport numpy as np
+Community Reporting: Some platforms incorporate user feedback and reports into their fake news detection algorithms. Users can flag suspicious content, which the algorithm then evaluates for further scrutiny.
+
+
+
+
+
+
+#CODE
+
+Import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
